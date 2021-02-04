@@ -1,0 +1,89 @@
+/* Colors and fonts */
+
+body {
+ background : #F0E2D0;
+ color : rgb(50, 50, 50);
+ font-family: 'Lora', serif;
+ font-size : 16px;
+ font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color :#7C9473;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color : #7C9473;
+    font-size: 18px;
+	font-weight : lighter;
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+	color: #5B5B5B;
+	font-weight: bold;
+}
+a:hover {
+	color: #9DAB86;
+}
+
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius : 50%;
+}
+
+.btn-blue {
+	background-color: #5B5B5B;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display:inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
